@@ -1,0 +1,71 @@
+body{
+    background-image: url(./banner.jpg);
+}
+.caja{
+    background: #ECE9E9;
+    background: -webkit-linear-gradient(to left,#ffffff, #ece9e6);
+    background: linear-gradient(to left, #ffffff, #ece9e6);
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    border-radius: 18px;
+    display: flex;
+    height: 26cm;
+    width: 17cm;
+    margin-left: 22%;
+    margin-top: 0.3cm;
+    border-radius: 15%;
+    padding-top: 1.5cm;
+    padding-left: 3.7cm;
+}
+
+
+fieldset{
+    width: 13cm;
+    height: 22cm;
+    border-radius: 17px;
+}
+legend{
+    font-size: 0.7cm;
+    text-align: center;
+}
+p{
+    margin-left: 3cm;
+}
+.texto{
+    text-align: center;
+    margin-left: 1.6cm;
+    height: 1cm;
+    width: 10cm;
+}
+.boton{
+    margin-left: 1.6cm;
+    height: 1cm;
+    width: 10cm;
+}
+h1{
+    background-color:  #d69fa4;
+    color: aliceblue;
+    text-align: center;
+}
+p{
+    font-size: 0.5cm;
+}
+.pie{
+    background-color: #d69fa4;
+    width: 14cm;
+    height: 2cm;
+    border-radius: 17px;
+    padding-top: 0.1cm;
+    margin-top: 0.5cm;
+}
+.formulario{
+    height: 10cm;
+}
+span{
+    margin-left: 1.5cm;
+}
+.boton:hover{
+    background-color: #d69fa4;
+}
+.texto:hover{
+    border: 0.1cm solid #d69fa4;
+}
