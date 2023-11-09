@@ -1,0 +1,90 @@
+.container{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 
+        400px 1fr 1fr 1fr 400px
+    ;
+    column-gap: 10px;
+    grid-template-rows: 
+        50px 20px 50px 3fr 70px 2fr 70px 1fr 
+    ;
+
+    grid-template-areas: 
+        "topp topp topp topp topp"
+        "info info info info info"
+        "header header header header header"
+        "imgPortada imgPortada imgPortada imgPortada imgPortada"
+        ". . . . ."
+        ". img1 img2 img3 ."
+        ". . . . ."
+        "footer footer footer footer footer"
+    ;
+}
+
+
+.a{
+    background-color: #b0f2c2;
+    grid-area: topp; 
+}
+
+.b{
+    grid-area: info;
+    background-color: #fcfcda;
+}
+.c{
+    grid-area: header;
+    background-color: aqua;
+}
+.d{
+    grid-area: imgPortada;
+    background-color: cornflowerblue;
+}
+.e{
+    grid-area: img1;
+    background-color: tomato;
+}
+.f{
+    grid-area: img2;
+    background-color: rgb(255, 206, 71);
+}
+.g{
+    grid-area: img3;
+    background-color: rgb(86, 255, 71);
+}
+.h{
+    grid-area: footer;
+    background-color: brown;
+}
+
+
+@media only screen and (max-width: 767px) and (min-width: 320px){
+    .container{
+        background-color: rgb(255, 255, 255);
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 
+           10px 1fr 10px 
+        ;
+        column-gap: 10px;
+        grid-template-rows: 
+            50px 25px 2fr 20px 1fr 1fr 1fr 20px 1fr  
+        ;
+        row-gap: 5px;
+        grid-template-areas: 
+            "header header header"
+            "menu menu menu"
+            "imgPortada imgPortada imgPortada"
+            ". . ."
+            ". img1 ."
+            ". img2 ."
+            ". img3 ."
+            ". . . "
+            "footer footer footer"
+        ;
+    }
+    .i{
+        grid-area: menu;
+        background-color: brown;
+    }
+}
